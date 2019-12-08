@@ -1,0 +1,138 @@
+NOTE: These alerts are grouped by source IP address (in the direction the traffic triggered on).  So if the source IP shows as 10.8.20.101, and there is more than one alert in the count, then there may be different destination IP addresses.
+
+------------------------------------------------------------------------
+Count:1 Event#3.87530 2019-08-20 19:31 UTC
+ETPRO CURRENT_EVENTS MalDoc Requesting Ursnif Payload 2018-09-24
+10.8.20.101 -> 94.103.87.160
+IPVer=4 hlen=5 tos=0 dlen=126 ID=0 flags=0 offset=0 ttl=0 chksum=59142
+Protocol: 6 sport=49202 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=17334 chksum=0
+------------------------------------------------------------------------
+Count:9 Event#3.87625 2019-08-20 19:34 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 8 M1
+10.8.20.101 -> 172.217.6.174
+IPVer=4 hlen=5 tos=0 dlen=767 ID=0 flags=0 offset=0 ttl=0 chksum=59141
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=34203 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.87626 2019-08-20 19:34 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 8 M2
+10.8.20.101 -> 172.217.6.174
+IPVer=4 hlen=5 tos=0 dlen=767 ID=0 flags=0 offset=0 ttl=0 chksum=59141
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=34203 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87628 2019-08-20 19:35 UTC
+ETPRO CURRENT_EVENTS Ursnif Loader Activity 2018-09-25
+10.8.20.101 -> 94.103.86.146
+IPVer=4 hlen=5 tos=0 dlen=466 ID=0 flags=0 offset=0 ttl=0 chksum=59072
+Protocol: 6 sport=49214 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=52131 chksum=0
+------------------------------------------------------------------------
+Count:19 Event#3.87646 2019-08-20 19:36 UTC
+ETPRO TROJAN Zeus Panda Banker / Ursnif Malicious SSL Certificate Detected
+185.193.141.166 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=980 ID=0 flags=0 offset=0 ttl=0 chksum=21072
+Protocol: 6 sport=443 -> dport=49217
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=45395 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87649 2019-08-20 19:42 UTC
+ETPRO TROJAN Observed Trickbot Style SSL Cert (Internet Widgets Pty Ltd)
+191.37.181.152 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1362 ID=0 flags=0 offset=0 ttl=0 chksum=9084
+Protocol: 6 sport=449 -> dport=49222
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=36396 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.87654 2019-08-20 19:42 UTC
+ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex/Trickbot CnC)
+89.105.203.184 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1459 ID=0 flags=0 offset=0 ttl=0 chksum=29367
+Protocol: 6 sport=443 -> dport=49224
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=8689 chksum=0
+------------------------------------------------------------------------
+Count:3 Event#3.87665 2019-08-20 19:49 UTC
+ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex/Trickbot CnC)
+185.117.75.41 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1459 ID=0 flags=0 offset=0 ttl=0 chksum=37690
+Protocol: 6 sport=447 -> dport=49231
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=19804 chksum=0
+------------------------------------------------------------------------
+Count:12 Event#3.87672 2019-08-20 19:49 UTC
+ET MALWARE Windows executable sent when remote host claims to send an image
+185.183.98.232 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=31504
+Protocol: 6 sport=80 -> dport=49238
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=6213 chksum=0
+------------------------------------------------------------------------
+Count:12 Event#3.87680 2019-08-20 19:49 UTC
+ET MALWARE Windows executable sent when remote host claims to send an image M3
+185.183.98.232 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=31504
+Protocol: 6 sport=80 -> dport=49238
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=6213 chksum=0
+------------------------------------------------------------------------
+Count:99 Event#3.87771 2019-08-20 19:49 UTC
+ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected
+185.183.98.232 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=31504
+Protocol: 6 sport=80 -> dport=49238
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=35368 chksum=0
+------------------------------------------------------------------------
+Count:16 Event#3.87781 2019-08-20 19:49 UTC
+ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile
+185.183.98.232 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=31504
+Protocol: 6 sport=80 -> dport=49238
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=62976 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.87790 2019-08-20 19:50 UTC
+ETPRO TROJAN Trickbot Checkin Response
+170.238.117.187 -> 10.8.20.101
+IPVer=4 hlen=5 tos=0 dlen=179 ID=0 flags=0 offset=0 ttl=0 chksum=31791
+Protocol: 6 sport=8082 -> dport=49241
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=18374 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87792 2019-08-20 19:50 UTC
+ET TROJAN [PTsecurity] Trickbot Data Exfiltration
+10.8.20.101 -> 170.238.117.187
+IPVer=4 hlen=5 tos=0 dlen=468 ID=0 flags=0 offset=0 ttl=0 chksum=31502
+Protocol: 6 sport=49242 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=25833 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.87799 2019-08-20 19:50 UTC
+ETPRO TROJAN Trickbot Requesting networkDll Module
+10.8.20.101 -> 185.183.98.232
+IPVer=4 hlen=5 tos=0 dlen=190 ID=0 flags=0 offset=0 ttl=0 chksum=32814
+Protocol: 6 sport=49244 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=41887 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.87895 2019-08-20 19:50 UTC
+ET TROJAN Suspicious POST with Common Windows Process Names - Possible Process List Exfiltration
+10.8.20.101 -> 170.238.117.187
+IPVer=4 hlen=5 tos=0 dlen=272 ID=0 flags=0 offset=0 ttl=0 chksum=31698
+Protocol: 6 sport=49511 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=63320 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.87900 2019-08-20 19:50 UTC
+ETPRO TROJAN W32/Trickbot C2 (networkDll module)
+10.8.20.101 -> 170.238.117.187
+IPVer=4 hlen=5 tos=0 dlen=272 ID=0 flags=0 offset=0 ttl=0 chksum=31698
+Protocol: 6 sport=49511 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=63320 chksum=0

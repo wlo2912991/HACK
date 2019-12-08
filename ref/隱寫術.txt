@@ -1,0 +1,16 @@
+hexdump xxx.xxx | head
+
+檔案16進位取頭
+
+
+file xxx.xxx
+
+檔案格式
+
+
+binwalk
+
+
+
+dd if=carter.jpg of=ab.jpg skip=140147 bs=1
+ 	 (檔名)       (跳到幾個開始) (大小)

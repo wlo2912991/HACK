@@ -1,0 +1,14 @@
+1. 連線下載 Fortinet Client 並安裝
+
+URL  https://cdx.nchc.org.tw
+     http://cdx.nchc.org.tw/download.php
+
+2. 設定並連線CDX VPN
+
+VPN IP：140.110.112.1:10443
+攻防平台入口：http://192.168.66.160:9869
+
+VPN連線程式及操作手冊下載連結
+http://cdx.nchc.org.tw/download.php
+
+3.建立兩部VM
